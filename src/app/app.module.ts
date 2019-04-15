@@ -8,6 +8,9 @@ import { BrowserModule } from '@angular/platform-browser';
 import { PagesModule } from './pages/pages.module';
 import { FormsModule } from '@angular/forms';
 
+// servicios
+import { ServiceModule } from './services/service.module';
+
 // componentes
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
@@ -25,7 +28,8 @@ import { NopagefoundComponent } from './shared/nopagefound/nopagefound.component
     BrowserModule,
     APP_ROUTES,
     PagesModule,
-    FormsModule
+    FormsModule,
+    ServiceModule
   ],
   providers: [],
   bootstrap: [AppComponent]
