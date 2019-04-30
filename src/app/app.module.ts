@@ -6,7 +6,7 @@ import { APP_ROUTES } from './app.routes';
 // modulos
 import { BrowserModule } from '@angular/platform-browser';
 import { PagesModule } from './pages/pages.module';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 // servicios
 import { ServiceModule } from './services/service.module';
@@ -29,6 +29,7 @@ import { NopagefoundComponent } from './shared/nopagefound/nopagefound.component
     APP_ROUTES,
     PagesModule,
     FormsModule,
+    ReactiveFormsModule,
     ServiceModule
   ],
   providers: [],
